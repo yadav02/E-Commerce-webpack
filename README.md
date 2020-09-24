@@ -56,7 +56,7 @@ yarn add
 ## Starting the App
 
 ```
-	yaran start
+yaran start
 
 ```
 ## Accessing the App
