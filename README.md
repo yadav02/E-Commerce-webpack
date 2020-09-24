@@ -60,4 +60,7 @@ yaran start
 
 ```
 ## Accessing the App
-  you can access the application on [localhost:8080](localhost:8080).
+```
+you can access the application on [localhost:8080](localhost:8080)
+
+```
