@@ -9,40 +9,17 @@ E-Commerce Website Where you can see product details you can add to cart product
 ![build dev](https://img.shields.io/librariesio/release/npm/react?color=yellow&label=dev-dependencies)
 ![build dev](https://img.shields.io/npm/v/@babel/core?color=orange&label=@babel/core)
 
+## Software Requirements
+* [Node v12.18.4](https://nodejs.org/en/) (Recommended).
 
 ## Setup
- Open folder Shoplane.
->cd Shoplane
+Step 1: Clone or download repository to a local directory.
 
-## Folder Structure
-your project should look like this:
+	>git clone https://github.com/yadav02/E-Commerce-webpack
 
-```
-Shoplane/
-  node_modules/
-  src/
-  assets/
-  components/
-  containers/
-  reducers/
-  redux/
-  store/
-  utils/
-  App.js
-  App.module.css
-  index.css
-  index.js
-  .babelrc
-  index.html
-  README.md
-  package.json
-  webpack.config.js
+Step 2: Goto Shoplane/
 
-```
-For the project to build, **these files must exist with exact filenames**:
-
-* `index.html` is the page template;
-* `src/index.js` is the JavaScript entry point.
+	>cd Shoplane
 
 ## Installing a Dependency
 The generated project includes React and ReactDOM as dependencies. It also includes a set of scripts. To install dependencies and dev-dependencies with `yarn`:
@@ -51,16 +28,14 @@ The generated project includes React and ReactDOM as dependencies. It also inclu
 yarn add
 
 ```
-
-
 ## Starting the App
 
 ```
-yaran start
+yarn start
 
 ```
 ## Accessing the App
 ```
-you can access the application on [localhost:8080](localhost:8080)
+you can access the application on localhost:8080.
 
 ```
