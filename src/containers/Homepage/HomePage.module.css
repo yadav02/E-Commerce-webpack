@@ -1,0 +1,88 @@
+.Clothes, .Accessories {
+	display: flex;
+	justify-content: space-between;
+}
+
+figure {
+    text-align: center;
+    display: inline-block;
+    margin: 0 10px 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px #ddd;
+    transition: 0.2s;
+}
+
+figure:hover {
+	box-shadow: 0 5px 10px #ccc;
+}
+
+figure img {
+	width: 	100%;
+	border-radius: 10px;
+}
+
+figcaption {
+	padding: 10px 5px;
+}
+
+figure h4 {
+	font-size: 1em;
+}
+
+figure h4, figure p{
+	margin: 0;
+}
+
+.Brand {
+	color: #797979;
+}
+
+.Price {
+	color: crimson;
+}
+
+@media screen and (max-width: 900px) {
+
+	.Clothes, .Accessories {
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	figure {
+		width: 22%;
+	}
+
+}
+
+@media screen and (max-width: 700px) {
+
+	figure {
+		width: 30%;	
+	}
+}
+
+@media screen and (max-width: 600px) {
+
+	h1, h2 {
+		text-align: center;
+	}
+
+	figure {
+		width: 48%;
+		margin: 0;
+		margin-bottom: 15px;
+	}
+
+}
+
+@media screen and (max-width: 414px) {
+
+	.Clothes, .Accessories {
+		justify-content: center;
+	}
+
+	figure {
+		width: 80%;
+	}
+
+}
