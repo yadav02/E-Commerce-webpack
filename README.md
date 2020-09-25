@@ -11,7 +11,7 @@ E-Commerce Website Where you can see product details you can add to cart product
 
 ## Software Requirements
 * [Node v12.18.4](https://nodejs.org/en/) (Recommended).
-* [yarn v1.22.4](https://yarnpkg.com) (Recommended).
+* [yarn v1.22.4](https://classic.yarnpkg.com/en/docs/install/) (Recommended).
 
 ## Setup
 Step 1: Clone or download repository to a local directory.
